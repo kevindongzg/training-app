@@ -1,0 +1,23 @@
+@import "../../style/variables";
+
+.header {
+  margin-top: -$image-size/2;
+  text-align: center;
+  border-bottom: 3px solid $gray-light;
+  width: 100%;
+
+  .avatar {
+    width: $image-size;
+    height: $image-size;
+    border-radius: 50%;
+  }
+
+  h1 {
+    margin: 10px auto;
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,53 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+body {
+  font-family: $font-family-base;
+  color: $color-base;
+  background-color: $body-bg;
+  line-height: $line-height-base;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $link-color;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+h3 {
+  color: $primary-color;
+}
+
+.container {
+  width: 900px;
+  margin: $image-size auto 0;
+  padding: 0 20px 20px;
+  background: white;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}

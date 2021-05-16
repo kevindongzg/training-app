@@ -1,0 +1,30 @@
+@import "../../style/variables";
+
+.education {
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+
+    .year {
+      width: 100px;
+    }
+
+    .item-description {
+      flex: 1;
+      background-color: $gray-light;
+      padding: 10px;
+    }
+
+    h4 {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}
